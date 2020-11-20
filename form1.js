@@ -13,19 +13,19 @@ function validate(){
     let regexp3=/^([0-9]{10})$/
     let regexp4=/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/
         if(regexp1.test(email.value)){
-            error1.innerHTML='valid email id';
+            error1.innerHTML='Valid email id';
             error1.style.color='green';
             error1.style.border='1px solid green';
             flag+=1;
             }
             else{
-            error1.innerHTML='invalid email id.Should be in the format: abcd@gmail.com';
+            error1.innerHTML='Invalid email id.Should be in the format: abcd@gmail.com';
             error1.style.color='red';
             error1.style.border='1px solid red';
             flag=0;
             }
          if(regexp2.test(pwd.value)){
-                error2.innerHTML='valid password';
+                error2.innerHTML='Valid password';
                 error2.style.color='green';
                 error2.style.border='1px solid green';
                 flag+=1;
@@ -37,25 +37,25 @@ function validate(){
                 flag=0;
                 }
         if(pwd.value==conpwd.value){
-            error3.innerHTML='valid';
+            error3.innerHTML='Valid';
             error3.style.color='green';
             error3.style.border='1px solid green';
             flag+=1;
             }
             else{
-            error3.innerHTML='password does not match';
+            error3.innerHTML='Password does not match';
             error3.style.color='red';
             error3.style.border='1px solid red';
             flag=0;
             }
         if((regexp3.test(phno.value))||(regexp4.test(phno.value))){
-            error4.innerHTML='valid phone number';
+            error4.innerHTML='Valid phone number';
             error4.style.color='green';
             error4.style.border='1px solid green';
             flag+=1;
             }
             else{
-            error4.innerHTML='invalid phone number format.Accepted formats are XXXXXXXXXX , XXX XXX XXXX , XXX.XXX.XXXX , XXX-XXX-XXXX';
+            error4.innerHTML='Invalid phone number format.Accepted formats are XXXXXXXXXX , XXX XXX XXXX , XXX.XXX.XXXX , XXX-XXX-XXXX';
             error4.style.color='red';
             error4.style.border='1px solid red';
             flag=0;
