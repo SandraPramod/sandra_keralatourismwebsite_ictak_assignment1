@@ -60,7 +60,7 @@ function validate(){
             error4.style.border='2px solid red';
             flag=0;
             }
-    if(flag==3){
+    if(flag==4){
     return true;
     }
     else{
