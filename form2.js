@@ -13,7 +13,7 @@ function validate1(){
             flag+=1;
             }
             else{
-            error1.innerHTML='invalid email id';
+            error1.innerHTML='invalid email id.Should be in the format: abcd@gmail.com';
             error1.style.color='red';
             error1.style.border='2px solid red';
             flag=0;
@@ -25,7 +25,7 @@ function validate1(){
                 flag+=1;
                 }
                 else{
-                error2.innerHTML='password is too short';
+                error2.innerHTML='password is too short.Must contain 8 characters';
                 error2.style.color='red';
                 error2.style.border='2px solid red';
                 flag=0;
