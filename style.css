@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color: green;
+    height: 6em;
+}
+img{
+    margin-left: 3%;
+    margin-top: 10px;
+}
+.head-tag{
+    float: right;
+    margin-top: 2em;
+    margin-right: 55px;
+}
+.search{
+    float: right;
+    margin-top: 2em;
+    margin-right: 55px;
+}
+.head-tag #home{
+    color: white;
+    border: 1px solid green;
+    font-size: 1.35em;
+}
+.head-tag #login{
+    color: white;
+    border: 1px solid green;
+    font-size: 1.35em;
+}
+.head-tag #signup{
+    color: white;
+    border: 1px solid green;
+    font-size: 1.45em;
+}
+.head-tag #checkout{
+    color: white;
+    border: 1px solid green;
+    font-size: 1.45em;
+}
+.head-tag a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: lightgreen;
+    padding: 3px;
+    margin-right: 8px;
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+.head-tag a:hover{
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+marquee{
+    color:white;
+    font-family: cursive;
+    font-style: italic;
+}
+.mymargin{
+    margin-left: 20px;
+}
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: green;
+    color: yellow;
+    height: 2em;
+    margin-top: 2%;
+}
+footer h5{
+    text-align: center;
+}
+.signin{
+    color: black;
+    font-weight: bolder;
+    margin-left: 32%;
+    margin-top: 50px;
+    border: 2px greenyellow;
+    border-style: groove;
+    box-shadow: 18px 15px 10px darkgreen;
+    padding: 1.5em;
+    background-color:transparent;
+    font-family: cursive;
+}
+.signup{
+    color:black;
+    font-weight: bolder;
+    margin-left: 32%;
+    margin-top: 60px;
+    border: 2px greenyellow;
+    border-style: groove;
+    box-shadow: 18px 15px 10px darkgreen;
+    padding: 2.5em;
+    padding-left: 2em;
+    background-color:transparent;
+    font-family: cursive;
+}
+.signup a{
+    color: darkblue;
+}
+.signup a:hover{
+    color: darkred;
+    transition: 0.5s ease-in-out;
+}
+.head-tag #about{
+    color: white;
+    border: 1px solid green;
+    font-size: 1.35em;
+}
+#aboutush2{
+    margin-left: 0.75em;
+    margin-top: 0.5em;
+    color:darkblue;
+    text-decoration: underline;
+    text-shadow: yellowgreen;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+#aboutus{
+    font-weight: bold;
+    margin: 1.5em;
+    width: 50%;
+}
+#img-about1{
+    float: right;
+    width: 30%;
+    height: 70%;
+    margin-right: 2em;
+}
+#img-about2{
+    float: right;
+    width: 30%;
+    height: 50%;
+    margin-right: 2em;
+}
+.head-tag #districts{
+    color: white;
+    border: 1px solid green;
+    font-size: 1.35em;
+}
+.district{
+   margin-left: 7em;
+   padding: 0.5em;
+   border:5px transparent;
+   border-style: groove;
+   
+}
+.district #dr1{
+    padding: 1em;
+    box-shadow: 10px 10px 10px darkgreen;
+
+}
+.district #dr2{
+    padding: 1em;
+    box-shadow: 10px 10px 10px darkgreen;
+}
+.district #dr3{
+    padding: 1em;
+    box-shadow: 10px 10px 10px darkgreen;
+}
+.district #dr4{
+    padding: 1em;
+    box-shadow: 10px 10px 10px darkgreen;
+}
+.district #dr5{
+    padding: 1em;
+    box-shadow: 10px 10px 10px darkgreen;
+}
+.district #dr6{
+    padding: 1em;
+    box-shadow: 10px 10px 10px darkgreen;
+}
+.district #dr7{
+    padding: 1em;
+    box-shadow: 10px 10px 10px darkgreen;
+}
+.checkout{
+    color:black;
+    font-weight: bolder;
+    margin-left: 32%;
+    margin-top: 150px;
+    border: 2px greenyellow;
+    border-style: groove;
+    box-shadow: 18px 15px 10px darkgreen;
+    padding: 2.5em;
+    padding-left: 2em;
+    background-color:transparent;
+    font-family: cursive;
+}
