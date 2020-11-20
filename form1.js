@@ -11,7 +11,7 @@ function validate(){
     let regexp1=/^([A-Za-z0-9\._!#$%&*+/=?^{|}~-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/
     let regexp2=/^([A-Za-z0-9\._!#$%&*+/=?^{|}~-]{7,14})$/
     let regexp3=/^([0-9]{10})$/
-    let regexp4=/^([0-9]{3}-[0-9]{3}-[0-9]{4})?([0-9]{3}.[0-9]{3}.[0-9]{4})?([0-9]{3} [0-9]{3} [0-9]{4})?$/
+    let regexp4=/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/
         if(regexp1.test(email.value)){
             error1.innerHTML='valid email id';
             error1.style.color='green';
