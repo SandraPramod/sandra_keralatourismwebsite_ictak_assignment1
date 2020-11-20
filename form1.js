@@ -24,7 +24,7 @@ function validate(){
             error1.style.border='2px solid red';
             flag=0;
             }
-           if(regexp2.test(pwd.value)){
+         if(regexp2.test(pwd.value)){
                 error2.innerHTML='valid password';
                 error2.style.color='green';
                 error2.style.border='2px solid green';
@@ -36,7 +36,7 @@ function validate(){
                 error2.style.border='2px solid red';
                 flag=0;
                 }
-           if(pwd.value==conpwd.value){
+        if(pwd.value==conpwd.value){
             error3.innerHTML='valid';
             error3.style.color='green';
             error3.style.border='2px solid green';
@@ -48,7 +48,7 @@ function validate(){
             error3.style.border='2px solid red';
             flag=0;
             }
-           if((regexp3.test(phno.value))||(regexp4.test(phno.value))){
+        if((regexp3.test(phno.value))||(regexp4.test(phno.value))){
             error4.innerHTML='valid phone number';
             error4.style.color='green';
             error4.style.border='2px solid green';
