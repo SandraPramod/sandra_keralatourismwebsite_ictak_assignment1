@@ -7,27 +7,27 @@ function validate1(){
     let regexp1=/^([A-Za-z0-9\._!#$%&*+/=?^{|}~-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/
     let regexp2=/^([A-Za-z0-9\._!#$%&*+@/=?^{|}~-]{7,14})$/
         if(regexp1.test(email.value)){
-            error1.innerHTML='valid email id';
+            error1.innerHTML='Valid email id';
             error1.style.color='green';
-            error1.style.border='2px solid green';
+            error1.style.border='1px solid green';
             flag+=1;
             }
             else{
-            error1.innerHTML='invalid email id.Should be in the format: abcd@gmail.com';
+            error1.innerHTML='Invalid email id.Should be in the format: abcd@gmail.com';
             error1.style.color='red';
-            error1.style.border='2px solid red';
+            error1.style.border='1px solid red';
             flag=0;
             }
         if(regexp2.test(pwd.value)){
-                error2.innerHTML='valid password';
+                error2.innerHTML='Valid password';
                 error2.style.color='green';
-                error2.style.border='2px solid green';
+                error2.style.border='1px solid green';
                 flag+=1;
                 }
                 else{
-                error2.innerHTML='password is too short.Must contain 8 characters';
+                error2.innerHTML='Password is too short.Must contain 8 characters';
                 error2.style.color='red';
-                error2.style.border='2px solid red';
+                error2.style.border='1px solid red';
                 flag=0;
                 }
     if(flag==2){
